@@ -110,7 +110,7 @@ def CompressionExample(name="Ariel Sharon"):
     indexes = np.random.choice(n, size=5)
 
     for idx in indexes:
-        plot_vector_as_image(Data[idx], h, w, title="Original Image")
+        plot_vector_as_image(Data[idx], h, w, title="Original Image (50x37 pixels)")
 
         for j in range(0, len(Ks)):
             k = Ks[j]
